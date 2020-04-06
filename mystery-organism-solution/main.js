@@ -54,6 +54,7 @@ const pAequorFactory = (num, dna) => {
         return false;
       }
     },
+    // Create complementary strand
     complementStrand() {
       let baseStrand = this._dna;
       let complement = [];
@@ -86,9 +87,8 @@ const surviveCreator = () => {
   return array;
 } 
 
-let ex1 = pAequorFactory(1, mockUpStrand());
-console.log(ex1._dna);
-console.log(ex1.complementStrand());
+// Create example: let ex1 = pAequorFactory(1, mockUpStrand());
+
 
 
 
