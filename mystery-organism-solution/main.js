@@ -85,7 +85,7 @@ const surviveCreator = () => {
     }
   };
   return array;
-} 
+}; 
 
 // Create example: let ex1 = pAequorFactory(1, mockUpStrand());
 
